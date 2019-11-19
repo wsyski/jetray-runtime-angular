@@ -9,6 +9,3 @@ import '@angular/forms';
 
 // RxJS
 import 'rxjs';
-
-// UI-Router
-import '@uirouter/angular';
