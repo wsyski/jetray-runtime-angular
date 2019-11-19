@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "^4.1.0",
-    "angular2-template-loader": "^0.6.2",
     "clean-webpack-plugin": "^0.1.16",
     "ngc-webpack": "^1.2.0",
     "raw-loader": "^0.5.1",
