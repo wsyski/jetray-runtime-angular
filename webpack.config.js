@@ -7,7 +7,8 @@ module.exports = {
     // mode: 'production',
     mode: 'development',
     optimization: {
-        minimize: true
+        minimize: true,
+        noEmitOnErrors: true
     },
     entry: {
         'ng_runtime': ['./src/ng_runtime.ts']
