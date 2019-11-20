@@ -10,26 +10,26 @@
     "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
-    "@angular/common": "^4.1.0",
-    "@angular/compiler": "^4.1.0",
-    "@angular/core": "^4.1.0",
-    "@angular/forms": "^4.1.0",
-    "@angular/http": "^4.1.0",
-    "@angular/platform-browser": "^4.1.0",
-    "@angular/platform-browser-dynamic": "^4.1.0",
-    "@angular/router": "^4.1.0",
-    "@types/node": "^12.0.8",
-    "core-js": "^2.4.1",
-    "rxjs": "^5.1.1",
-    "zone.js": "^0.8.4"
+    "@angular/animations": "~8.2.14",
+    "@angular/common": "~8.2.14",
+    "@angular/compiler": "~8.2.14",
+    "@angular/core": "~8.2.14",
+    "@angular/forms": "~8.2.14",
+    "@angular/platform-browser": "~8.2.14",
+    "@angular/platform-browser-dynamic": "~8.2.14",
+    "@angular/router": "~8.2.14",
+    "rxjs": "~6.4.0",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "^4.1.0",
-    "clean-webpack-plugin": "^0.1.16",
-    "ngc-webpack": "^1.2.0",
-    "raw-loader": "^0.5.1",
-    "ts-loader": "^2.0.2",
-    "typescript": "~2.2.0",
-    "webpack": "^2.3.0"
+    "@angular/cli": "~8.3.19",
+    "@angular/compiler-cli": "~8.2.14",
+    "ngc-webpack": "~4.1.2",
+    "raw-loader": "~3.1.0",
+    "ts-loader": "~6.2.1",
+    "typescript": "~3.5.3",
+    "webpack": "~4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
