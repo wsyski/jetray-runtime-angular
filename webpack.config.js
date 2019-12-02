@@ -8,7 +8,6 @@ module.exports = {
     mode: 'development',
     optimization: {
         minimize: false,
-        namedModules: true,
         noEmitOnErrors: true
     },
     entry: {
