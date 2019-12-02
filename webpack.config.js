@@ -7,11 +7,19 @@ module.exports = {
     // mode: 'production',
     mode: 'development',
     optimization: {
-        minimize: true,
+        minimize: false,
+        namedModules: true,
         noEmitOnErrors: true
     },
     entry: {
         'ng_runtime': ['./src/ng_runtime.ts']
+    },
+
+    module: {
+        rules: [
+            // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader`
+            { test: /\.tsx?$/, loader: "ts-loader" }
+        ]
     },
 
     performance: {
